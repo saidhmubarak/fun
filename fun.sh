@@ -64,6 +64,9 @@ sel_ect() {
 			then
 				cd core
 				bash test.sh
+		else 
+			echo "invalid option QUITTING"
+			clear
 	fi
 }
 
