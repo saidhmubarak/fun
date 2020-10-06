@@ -27,7 +27,7 @@ read  -p  "so what you want today? :" var
 
 select() {
 
-	if [ $var == 1 ]
+	if [ $var == 1 ];
 	then
 		apt-get update && apt-get upgrade
 		pkg install unstable-repo
