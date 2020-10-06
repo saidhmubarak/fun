@@ -8,3 +8,4 @@ cd fun
 chmod +x fun.sh
 bash fun.sh
 ```
+# Not for Keng lol (private property)
