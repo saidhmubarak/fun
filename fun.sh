@@ -25,7 +25,7 @@ echo
 read  -p  "so what you want today? :" var
 
 
-select() {
+sel_ect() {
 
 	if [ $var == 1 ];
 	then
@@ -67,7 +67,7 @@ select() {
 	fi
 }
 
-select
+sel_ect
 
 						
 
