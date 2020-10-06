@@ -29,10 +29,10 @@ sel_ect() {
 
 	if [ $var == 1 ];
 	then
-		apt-get update && apt-get upgrade
-		pkg install unstable-repo
-		pkg install sqlmap
-		clear
+		apt-get update && apt-get upgrade -y
+		pkg install unstable-repo -y
+		pkg install sqlmap -y
+		clear 
 		echo 
 		echo
 		echo -e "		sqlmap instalation completed		"
@@ -41,9 +41,9 @@ sel_ect() {
 	elif [ $var == 2 ];
 
 		then
-			apt-get update && apt-get upgrade 
-			pkg install unstable-repo
-			pkg install nmap
+			apt-get update && apt-get upgrade -y
+			pkg install unstable-repo -y
+			pkg install nmap -y
 			echo
 			echo
 			echo "				nmap installation completed		"
@@ -52,9 +52,9 @@ sel_ect() {
 		
 	elif [ $var == 3 ];
 		then
-			apt-get update && apt-get upgrade
-			pkg install unstable-repo
-			pkg install metasploit
+			apt-get update && apt-get upgrade -y
+			pkg install unstable-repo -y
+			pkg install metasploit -y
 			clear
 			echo
 			echo
